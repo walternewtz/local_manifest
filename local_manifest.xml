@@ -28,18 +28,18 @@
  <!-- Vendor Tree -->
  <project path="vendor/xiaomi" 
           name="vendor_xiaomi.git" 
-          remote="painkiller" 
-          revision="twelve" />
+          remote="walternewtz" 
+          revision="eleven" />
 <!-- hardware Tree -->
  <project path="hardware/xiaomi" 
           name="android_hardware_xiaomi.git" 
           remote="lineage" 
-          revision="lineage-19.0" />
+          revision="lineage-19.1" />
  <!-- Kernel Tree -->
  <project path="kernel/xiaomi/sdm845" 
           name="kernel_xiaomi_sdm845.git" 
-          remote="painkiller" 
-          revision="twelve" />
+          remote="walternewtz" 
+          revision="lineage-18.1" />
  <!-- Clang -->
  <project path="prebuilts/clang/host/linux-x86/clang-custom" 
           name="trb_clang.git" 
