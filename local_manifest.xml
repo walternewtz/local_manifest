@@ -19,12 +19,12 @@
  <project path="device/xiaomi/beryllium" 
           name="device_xiaomi_beryllium.git" 
           remote="walternewtz" 
-          revision="12" />
+          revision="twelve" />
  <!-- Common Tree -->
  <project path="device/xiaomi/sdm845-common" 
           name="device_xiaomi_sdm845-common.git" 
           remote="walternewtz" 
-          revision="12" />
+          revision="twelve" />
  <!-- Vendor Tree -->
  <project path="vendor/xiaomi" 
           name="vendor_xiaomi.git" 
