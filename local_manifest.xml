@@ -8,9 +8,7 @@
          fetch="https://github.com/PainKiller3" />
  <remote name="lineage" 
          fetch="https://github.com/LineageOS" />
- <remote name="clang" 
-         fetch="https://gitlab.com/varunhardgamer" />
- 
+
 
  
  <!-- Trees -->
