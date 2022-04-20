@@ -26,8 +26,8 @@
  <!-- Vendor Tree -->
  <project path="vendor/xiaomi" 
           name="vendor_xiaomi.git" 
-          remote="walternewtz" 
-          revision="eleven" />
+          remote="painkiller" 
+          revision="twelve" />
 <!-- hardware Tree -->
  <project path="hardware/xiaomi" 
           name="android_hardware_xiaomi.git" 
