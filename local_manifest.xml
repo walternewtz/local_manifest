@@ -8,6 +8,8 @@
          fetch="https://github.com/PainKiller3" />
  <remote name="lineage" 
          fetch="https://github.com/LineageOS" />
+<remote name="vendor" 
+         fetch="https://gitlab.com/the-muppets/" />
 
 
  
@@ -25,9 +27,9 @@
           revision="twelve" />
  <!-- Vendor Tree -->
  <project path="vendor/xiaomi" 
-          name="vendor_xiaomi.git" 
-          remote="walternewtz" 
-          revision="eleven" />
+          name="proprietary_vendor_xiaomi.git" 
+          remote="vendor" 
+          revision="lineage-19.1" />
 <!-- hardware Tree -->
  <project path="hardware/xiaomi" 
           name="android_hardware_xiaomi.git" 
