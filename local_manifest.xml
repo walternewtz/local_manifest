@@ -6,7 +6,10 @@
          fetch="https://github.com/crdroidandroid" />
  <remote name="walternewtz" 
          fetch="https://github.com/walternewtz" />
+ <remote name="kdrag0n" 
+         fetch="https://github.com/kdrag0n/" />
  
+
  <!-- Trees -->
   
  <!-- Device Tree -->
