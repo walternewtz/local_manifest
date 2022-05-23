@@ -45,7 +45,7 @@
           clone-depth="1" />
 
 <remove-project name="crdroidandroid/android_frameworks_base" remote="crdroid" />
-<project path="frameworks/base" name="android_frameworks_base-cr" revision="12.1" remote="walternewtz" />
+<project path="frameworks/base" name="android_frameworks_base" revision="12.1" remote="walternewtz" />
 
 
 
