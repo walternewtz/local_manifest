@@ -29,11 +29,10 @@
           name="proprietary_vendor_xiaomi.git" 
           remote="ven" 
           revision="lineage-18.1" />
-<!-- hardware Tree -->
-  <project path="hardware/xiaomi" 
+<project path="hardware/xiaomi" 
           name="android_hardware_xiaomi.git" 
-          remote="line" 
-          revision="lineage-18.1" />
+          remote="crdr" 
+          revision="12.0" />
  <!-- Kernel Tree -->
  <project path="kernel/xiaomi/sdm845" 
           name="android_kernel_xiaomi_sdm845.git" 
