@@ -6,10 +6,8 @@
          fetch="https://github.com/crdroidandroid" />
  <remote name="walternewtz" 
          fetch="https://github.com/walternewtz" />
- <remote name="ven" 
-         fetch="https://gitlab.com/the-muppets" />
- <remote name="line" 
-         fetch="https://github.com/LineageOS/" />
+  <remote name="PainKiller3" 
+         fetch="https://github.com/PainKiller3" />
 
 
  <!-- Trees -->
@@ -26,9 +24,9 @@
           revision="11.0" />
  <!-- Vendor Tree -->
  <project path="vendor/xiaomi" 
-          name="proprietary_vendor_xiaomi.git" 
-          remote="ven" 
-          revision="lineage-18.1" />
+          name="vendor_xiaomi.git" 
+          remote="PainKiller3"
+          revision="eleven" />
 <project path="hardware/xiaomi" 
           name="android_hardware_xiaomi.git" 
           remote="crdr" 
