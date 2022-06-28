@@ -6,9 +6,11 @@
          fetch="https://github.com/crdroidandroid" />
  <remote name="walternewtz" 
          fetch="https://github.com/walternewtz" />
- <remote name="kdrag0n" 
-         fetch="https://github.com/kdrag0n/" />
- 
+ <remote name="ven" 
+         fetch="https://gitlab.com/the-muppets" />
+ <remote name="line" 
+         fetch="https://github.com/LineageOS/" />
+
 
  <!-- Trees -->
   
@@ -16,37 +18,29 @@
  <project path="device/xiaomi/beryllium" 
           name="android_device_xiaomi_beryllium.git" 
           remote="walternewtz" 
-          revision="12.1" />
+          revision="11.0" />
  <!-- Common Tree -->
  <project path="device/xiaomi/sdm845-common" 
           name="android_device_xiaomi_sdm845-common.git" 
           remote="walternewtz" 
-          revision="12.1" />
+          revision="11.0" />
  <!-- Vendor Tree -->
  <project path="vendor/xiaomi" 
-          name="proprietary_vendor_xiaomi-beryllium.git" 
-          remote="crdr" 
-          revision="12.1" />
+          name="proprietary_vendor_xiaomi.git" 
+          remote="ven" 
+          revision="lineage-18.1" />
 <!-- hardware Tree -->
- <project path="hardware/xiaomi" 
+  <project path="hardware/xiaomi" 
           name="android_hardware_xiaomi.git" 
-          remote="crdr" 
-          revision="12.0" />
+          remote="line" 
+          revision="lineage-18.1" />
  <!-- Kernel Tree -->
  <project path="kernel/xiaomi/sdm845" 
           name="android_kernel_xiaomi_sdm845.git" 
           remote="walternewtz" 
-          revision="lineage-19.1" />
+          revision="lineage-18.1" />
 
- <project path="prebuilts/clang/host/linux-x86/clang-proton"
-          name="proton-clang" 
-          remote="kdrag0n"
-          revision="master" 
-          clone-depth="1" />
-
-<remove-project name="crdroidandroid/android_frameworks_base" remote="crdroid" />
-<project path="frameworks/base" name="android_frameworks_base" revision="12.1" remote="walternewtz" />
-
+ 
 
 
 </manifest>
