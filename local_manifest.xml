@@ -2,12 +2,12 @@
 <manifest>
 
   <!-- Remotes -->
- <remote name="crdr" 
-         fetch="https://github.com/crdroidandroid" />
- <remote name="walternewtz" 
+  <remote name="walternewtz" 
          fetch="https://github.com/walternewtz" />
   <remote name="PainKiller3" 
          fetch="https://github.com/PainKiller3" />
+  <remote name="ArrowOS-Devices" 
+         fetch="https://github.com/ArrowOS-Devices" />
 
 
  <!-- Trees -->
@@ -27,10 +27,10 @@
           name="vendor_xiaomi.git" 
           remote="PainKiller3"
           revision="eleven" />
-<project path="hardware/xiaomi" 
+ <project path="hardware/xiaomi" 
           name="android_hardware_xiaomi.git" 
-          remote="crdr" 
-          revision="12.0" />
+          remote="ArrowOS-Devices"
+          revision="arrow-11.0" />
  <!-- Kernel Tree -->
  <project path="kernel/xiaomi/sdm845" 
           name="android_kernel_xiaomi_sdm845.git" 
