@@ -26,11 +26,11 @@
           name="proprietary_vendor_xiaomi_beryllium.git" 
           remote="walternewtz" 
           revision="12.1" />
- <!-- Hardware Tree -->
-<project path="hardware/xiaomi" 
+<!-- hardware Tree -->
+ <project path="hardware/xiaomi" 
           name="android_hardware_xiaomi.git" 
-          remote="ArrowOS-Devices"
-          revision="arrow-12.1" />
+          remote="crdr" 
+          revision="12.0" />
  <!-- Kernel Tree -->
  <project path="kernel/xiaomi/sdm845" 
           name="android_kernel_xiaomi_sdm845.git" 
