@@ -26,6 +26,7 @@
           name="proprietary_vendor_xiaomi_beryllium.git" 
           remote="walternewtz" 
           revision="12.1" />
+ <!-- Hardware Tree -->
 <project path="hardware/xiaomi" 
           name="android_hardware_xiaomi.git" 
           remote="ArrowOS-Devices"
