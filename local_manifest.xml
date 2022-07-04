@@ -8,6 +8,8 @@
          fetch="https://github.com/walternewtz" />
   <remote name="ArrowOS-Devices" 
          fetch="https://github.com/ArrowOS-Devices" />
+  <remote name="pix" 
+         fetch="https://github.com/PixelExperience" />
 
  <!-- Trees -->
   
@@ -26,11 +28,11 @@
           name="proprietary_vendor_xiaomi_beryllium.git" 
           remote="walternewtz" 
           revision="12.1" />
-<!-- hardware Tree -->
- <project path="hardware/xiaomi" 
+ <!-- Hardware Tree -->
+<project path="hardware/xiaomi" 
           name="android_hardware_xiaomi.git" 
-          remote="crdr" 
-          revision="12.0" />
+          remote="ArrowOS-Devices"
+          revision="arrow-12.1" />
  <!-- Kernel Tree -->
  <project path="kernel/xiaomi/sdm845" 
           name="android_kernel_xiaomi_sdm845.git" 
@@ -41,6 +43,8 @@
 <remove-project name="crdroidandroid/android_frameworks_base" remote="crdroid" />
 <project path="frameworks/base" name="android_frameworks_base" revision="12.1" remote="walternewtz" />
 
+<remove-project name="LineageOS/android_hardware_qcom_audio" groups="qcom,sdm845" revision="lineage-19.1-caf-sdm845" />
+<project path="hardware/qcom-caf/sdm845/audio" name="hardware_qcom-caf_sdm845_audio" revision="twelve" remote="pix" />
 
 
 </manifest>
