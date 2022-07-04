@@ -6,7 +6,8 @@
          fetch="https://github.com/crdroidandroid" />
  <remote name="walternewtz" 
          fetch="https://github.com/walternewtz" />
-
+  <remote name="lineage" 
+         fetch="https://github.com/LineageOS" />
 
  <!-- Trees -->
   
@@ -28,8 +29,8 @@
 <!-- hardware Tree -->
  <project path="hardware/xiaomi" 
           name="android_hardware_xiaomi.git" 
-          remote="crdr" 
-          revision="12.0" />
+          remote="lineage" 
+          revision="lineage-19.1" />
  <!-- Kernel Tree -->
  <project path="kernel/xiaomi/sdm845" 
           name="android_kernel_xiaomi_sdm845.git" 
