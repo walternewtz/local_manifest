@@ -23,8 +23,8 @@
           revision="12.1" />
  <!-- Vendor Tree -->
  <project path="vendor/xiaomi" 
-          name="proprietary_vendor_xiaomi-beryllium.git" 
-          remote="crdr" 
+          name="proprietary_vendor_xiaomi_beryllium.git" 
+          remote="walternewtz" 
           revision="12.1" />
 <project path="hardware/xiaomi" 
           name="android_hardware_xiaomi.git" 
