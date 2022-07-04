@@ -6,8 +6,8 @@
          fetch="https://github.com/crdroidandroid" />
  <remote name="walternewtz" 
          fetch="https://github.com/walternewtz" />
-  <remote name="lineage" 
-         fetch="https://github.com/LineageOS" />
+  <remote name="ArrowOS-Devices" 
+         fetch="https://github.com/ArrowOS-Devices" />
 
  <!-- Trees -->
   
@@ -26,11 +26,10 @@
           name="proprietary_vendor_xiaomi-beryllium.git" 
           remote="crdr" 
           revision="12.1" />
-<!-- hardware Tree -->
- <project path="hardware/xiaomi" 
+<project path="hardware/xiaomi" 
           name="android_hardware_xiaomi.git" 
-          remote="lineage" 
-          revision="lineage-19.1" />
+          remote="ArrowOS-Devices"
+          revision="arrow-12.1" />
  <!-- Kernel Tree -->
  <project path="kernel/xiaomi/sdm845" 
           name="android_kernel_xiaomi_sdm845.git" 
