@@ -43,8 +43,8 @@
 <remove-project name="crdroidandroid/android_frameworks_base" remote="crdroid" />
 <project path="frameworks/base" name="android_frameworks_base" revision="12.1" remote="walternewtz" />
 
- <!-- <remove-project name="LineageOS/android_hardware_qcom_audio" groups="qcom,sdm845" revision="lineage-19.1-caf-sdm845" /> -->
- <!-- <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" revision="arrow-12.1-caf-sdm845" remote="ArrowOS" /> -->
+  <remove-project name="LineageOS/android_hardware_qcom_audio" groups="qcom,sdm845" revision="lineage-19.1-caf-sdm845" /> 
+  <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" revision="lineage-19.1-caf-sdm845" remote="walternewtz" />
 
 
 </manifest>
