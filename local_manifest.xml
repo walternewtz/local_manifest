@@ -46,11 +46,11 @@
  <!-- <remove-project name="LineageOS/android_hardware_qcom_audio" groups="qcom,sdm845" revision="lineage-19.1-caf-sdm845" /> -->
  <!-- <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" revision="lineage-19.1-caf-sdm845" remote="walternewtz" /> -->
 
- <remove-project name="crdroidandroid/android_build_soong" remote="crdroid" /> 
- <project path="build/soong" name="android_build_soong" revision="12.1" remote="walternewtz" >
-    <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project>
+<!-- <remove-project name="crdroidandroid/android_build_soong" remote="crdroid" />  -->
+ <!-- <project path="build/soong" name="android_build_soong" revision="12.1" remote="walternewtz" >  -->
+    <!-- <linkfile src="root.bp" dest="Android.bp" />  -->
+   <!--  <linkfile src="bootstrap.bash" dest="bootstrap.bash" />  -->
+ <!--  </project>
 
 
 </manifest>
